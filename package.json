@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node ./dist/scheduler.js"
+    "start": "npx tsc && node ./dist/scheduler.js"
   },
   "name": "scheduler",
   "version": "1.0.0",
